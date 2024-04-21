@@ -1,0 +1,27 @@
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #3f3ffa; */
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+.topnav a.active {
+    text-decoration: underline;
+}
