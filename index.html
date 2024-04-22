@@ -5,18 +5,37 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/topnav.css">
 <link rel="stylesheet" href="css/background.css">
+<link rel="stylesheet" href="css/grid.css">
 
 <head>
-	<title>lutchenko.com</title>
+	<title>Ilia Lutchenko's web corner</title>
 </head>
 
+<style>
+	.parent {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+</style>
+
 <body>
-	<div id="content">
-		<div class="topnav">
-			<a class="active" style="float:left" href="index.html">Home</a>
-			<a href="html/page3.html">Page 3</a>
-			<a href="html/page2.html">Page 2</a>
-			<a href="html/page1.html">Page 1</a>
+	<div id="background_grid">
+		<div class="box">
+			<div class="topnav">
+				<a href="html/page3.html">Page 3</a>
+				<a href="html/page2.html">Page 2</a>
+				<a href="html/page1.html">Page 1</a>
+			</div>
+			<div class="parent">
+				<div class="child">
+					<!-- <h1 class="logo_text">Ilia Lutchenko</h1> -->
+					<img src="img/name.svg">
+				</div>
+				<div class="child">
+					<img style="width: 200px;
+					height: 300px; object-fit: contain;" src="img/logo.png">
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
