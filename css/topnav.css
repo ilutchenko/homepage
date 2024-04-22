@@ -7,6 +7,9 @@
     /* position: fixed; */
     top: 0;
     width: 100%;
+    /* border-style: solid; */
+    border: solid white;
+    border-width: 1px;
 }
 
 .topnav a {
