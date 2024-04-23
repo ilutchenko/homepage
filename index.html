@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/topnav.css">
 <link rel="stylesheet" href="css/background.css">
 <link rel="stylesheet" href="css/grid.css">
-<link rel="stylesheet" href="css/footer.css"
+<link rel="stylesheet" href="css/footer.css">
 
 <head>
 	<title>Ilia Lutchenko's web corner</title>
@@ -21,28 +21,37 @@
 
 <body>
 	<div id="background_grid">
-		<div class="box">
+		<div class="blueprint-layout">
 			<div class="topnav">
-				<a href="html/page3.html">Page 3</a>
+				<a class="active" href="index.html">Page 1</a>
 				<a href="html/page2.html">Page 2</a>
-				<a class="active" href="html/page1.html">Page 1</a>
+				<a href="html/page3.html">Page 3</a>
 			</div>
-			<div class="parent">
-				<div class="child">
-					<!-- <h1 class="logo_text">Ilia Lutchenko</h1> -->
-					<img src="img/name.svg">
-				</div>
-				<div class="child">
-					<img style="width: 200px;
-					height: 300px; object-fit: contain;" src="img/logo.png">
-				</div>
-			</div>
-			<h1 class="text">Awesome page</h1>
-			<p class="text">Very-very awesome text</p>
+			<div class="content-layout">
 
+				<div class="logo-grid">
+					<div class="logo-name">
+						<img src="img/name.svg">
+					</div>
+					<div class="logo-image">
+						<img src="img/logo.png">
+					</div>
+				</div>
+				<h1>Awesome page</h1>
+				<p>Very-very awesome text</p>
+			</div>
 			<div class="footer">
-				<p class="text">Footer</p>
-			  </div>
+				<div class="footer-sidebar">
+					<p>Tech: HTML & CSS</p>
+				</div>
+				<div class="footer-author">
+					<p> Drawn by: Lutchenko I.A. </p>
+				</div>
+				<div class="footer-sheet">
+					<p>Sheet 1 of 3</p>
+				</div>
+
+			</div>
 
 		</div>
 	</div>
