@@ -1,19 +1,28 @@
 .topnav {
-    list-style-type: none;
+    position: relative;
+    margin-top: -3px;
+    margin-left: 500px;
     margin-bottom: 10px;
+
+    list-style-type: none;
+
     padding: 0;
     overflow: hidden;
-    /* position: absolute; */
+
     top: 0;
-    width: 100%;
+    width: 297px;
     border: solid white;
-    border-width: 1px;
+    border-width: 3px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .topnav a {
     float: right;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
