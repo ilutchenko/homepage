@@ -1,13 +1,11 @@
 .topnav {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     overflow: hidden;
-    /* background-color: #3f3ffa; */
-    /* position: fixed; */
+    /* position: absolute; */
     top: 0;
     width: 100%;
-    /* border-style: solid; */
     border: solid white;
     border-width: 1px;
 }
@@ -19,6 +17,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Schnaubelt";
 }
 
 .topnav a:hover:not(.active) {
