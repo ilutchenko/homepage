@@ -1,9 +1,42 @@
 .footer {
+    display: grid;
     position: absolute;
-    /* left: 0; */
-    bottom: 0;
-    width: 100%;
-    border: 1px solid white;
-    color: white;
+    left: 500px;
+    bottom: -3px;
+    width: 297px;
+    height: 50px;
+    border: 3px solid white;
     text-align: center;
-  }
+    font-family: "Schnaubelt";
+    font-size: medium;
+
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas:
+        'sidebar author'
+        'sidebar sheet';
+    
+}
+
+.footer-sidebar {
+    grid-area: sidebar;
+    place-content: center;
+    border: 1px solid white;
+}
+
+.footer-author {
+    grid-area: author;
+    place-content: center;
+    border: 1px solid white;
+}
+
+.footer-sheet {
+    grid-area: sheet;
+    place-content: center;
+    border: 1px solid white;
+}
+
+.footer > * > p {
+    margin: 0px;
+
+}
