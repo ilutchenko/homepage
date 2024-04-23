@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="104.72686mm"
+   height="36.123264mm"
+   viewBox="0 0 104.72686 36.123264"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="name_ink.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#4900ff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.466344"
+     inkscape:cx="153.10186"
+     inkscape:cy="59.672218"
+     inkscape:window-width="1280"
+     inkscape:window-height="675"
+     inkscape:window-x="2228"
+     inkscape:window-y="521"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="text1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.9874401,-2.6090936)">
+    <g
+       id="text1"
+       style="font-size:16.9333px;font-family:PWScratchedfont;-inkscape-font-specification:PWScratchedfont;stroke-width:0.264583"
+       aria-label="Ilia&#10;Lutchenko">
+      <text
+         xml:space="preserve"
+         style="font-size:16.9333px;font-family:PWScratchedfont;-inkscape-font-specification:PWScratchedfont;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.564999;stroke-dasharray:none;stroke-opacity:1"
+         x="7.8233871"
+         y="5.8217969"
+         id="text2"><tspan
+           sodipodi:role="line"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.565;stroke:#ffffff;stroke-opacity:1"
+           x="7.8233871"
+           y="5.8217969"
+           id="tspan3" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:16.9333px;font-family:PWScratchedfont;-inkscape-font-specification:PWScratchedfont;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.07;stroke-dasharray:none;stroke-opacity:1"
+         x="3.1553061"
+         y="16.406099"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="stroke-width:0.07;stroke-dasharray:none"
+           x="3.1553061"
+           y="16.406099">Ilia</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.07;stroke-dasharray:none"
+           x="3.1553061"
+           y="37.572723"
+           id="tspan5">Lutchenko</tspan></text>
+    </g>
+  </g>
+</svg>
