@@ -9,35 +9,36 @@
     src: url("../fonts/Schnaubelt_Bold.otf") format("opentype");
 }
 
-.text {
-    color: #FFFFFF;
+p {
+    color: rgba(255, 255, 255, .85);
     font-family: "Schnaubelt";
 }
 
-.box {
-    position: relative;
-    border: 2px solid white;
+a {
+    color: rgba(255, 255, 255, .85);
+    font-family: "Schnaubelt";
+}
 
-    max-width: 800px;
-    height: 90vh;
+h1 {
+    color: rgba(255, 255, 255, .85);
+    font-family: "Schnaubelt";
+}
 
-    margin: 0 auto;
-    margin-top: 50px;
+.blueprint-layout {
+    position: absolute;
+    border: 3px solid white;
+    width: 800px;
+    height: 95vh;
+    margin-top: 25px;
+    margin-left: 525px;
+}
+
+.content-layout {
+    position: absolute;
+    /* border: 1px solid white; */
+    width: 700px;
+    margin-top: 25px;
+    margin-left: 50px;
     box-sizing: content-box;
-
-    /* --padding-x: .5rem;
-     --padding-y: 2rem; */
-
-    padding: var(--padding-y) var(--padding-x);
-
-    --extra-padding-top: env(safe-area-inset-top, 0px);
-    --extra-padding-right: env(safe-area-inset-right, 0px);
-    --extra-padding-bottom: env(safe-area-inset-bottom, 0px);
-    --extra-padding-left: env(safe-area-inset-left, 0px);
-
-    padding-top: calc(var(--padding-y) + var(--extra-padding-top));
-    padding-right: calc(var(--padding-x) + var(--extra-padding-right));
-    padding-bottom: calc(var(--padding-y) + var(--extra-padding-bottom));
-    padding-left: calc(var(--padding-x) + var(--extra-padding-left));
 
 }
