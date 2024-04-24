@@ -1,5 +1,5 @@
 .topnav {
-    --border: 3px solid white;
+    --border: 2px solid rgba(255, 255, 255, .7);
 
     position: absolute;
     float: right;
