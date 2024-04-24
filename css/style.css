@@ -47,6 +47,7 @@ h1 {
 @media screen and (min-width: 480px) {
     .blueprint-layout {
         height: 98vh;
+        min-width: 480px;
         margin-left: 1vw;
         margin-right: 1vw;
     }
