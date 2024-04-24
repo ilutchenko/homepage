@@ -28,7 +28,7 @@ h1 {
 .blueprint-layout {
     position: relative;
     border: 3px solid white;
-    height: 98vh;
+    height: 100vh;
     width: calc(100vh / 1.41);
     max-width: 100vi;
 }
@@ -40,4 +40,13 @@ h1 {
     padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+/* Desktop */
+@media screen and (min-width: 480px) {
+    .blueprint-layout {
+        height: 98vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
 }
