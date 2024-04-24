@@ -1,15 +1,12 @@
 .topnav {
-    position: relative;
+    position: absolute;
+    float: right;
     margin-top: -3px;
-    margin-left: 500px;
+    margin-bottom: 30px;
     margin-bottom: 10px;
 
-    list-style-type: none;
-
-    padding: 0;
-    overflow: hidden;
-
     top: 0;
+    right: 0;
     width: 297px;
     border: solid white;
     border-width: 3px;
