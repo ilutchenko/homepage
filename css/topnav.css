@@ -7,7 +7,7 @@
 
     top: 0;
     right: 0;
-    width: 297px;
+    width: 100%;
     border: solid white;
     border-width: 3px;
 
@@ -32,4 +32,11 @@
 
 .topnav a.active {
     text-decoration: underline;
+}
+
+/* Desktop */
+@media screen and (min-width: 480px) {
+    .topnav {
+        width: 297px;
+    }
 }
