@@ -3,7 +3,7 @@
     position: absolute;
     right: 0;
     bottom: -3px;
-    width: 297px;
+    width: 100%;
     height: 50px;
     border: 3px solid white;
     text-align: center;
@@ -39,4 +39,11 @@
 .footer > * > p {
     margin: 0px;
 
+}
+
+/* Desktop */
+@media screen and (min-width: 480px) {
+    .footer {
+        width: 297px;
+    }
 }
