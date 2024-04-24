@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 3fr, 1fr;
     grid-template-areas: "name-logo image";
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     /* border: 1px solid hsl(210deg 10% 40%); */
     height: 100px;
     gap: 10px;
