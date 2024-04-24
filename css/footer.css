@@ -27,19 +27,27 @@
 
 .footer-sidebar {
     grid-area: sidebar;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-right: var(--border);
 }
 
 .footer-author {
     grid-area: author;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-bottom: var(--border);
 }
 
 .footer-sheet {
     grid-area: sheet;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer>*>p {
