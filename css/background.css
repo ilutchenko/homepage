@@ -1,16 +1,22 @@
 html {
-    height: 100%;
+    min-height: 100%;
+    overflow: auto;
 }
 
 body {
+    overflow: auto;
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     background-color: #434343;
     background-image: linear-gradient(#5480D3, #3256A7);
+    background-attachment: scroll;
+    /* display:flex ; */
 }
 
 #background_grid {
+    overflow: auto;
+
     background-color: transparent;
     background-image:
         linear-gradient(0deg, transparent 9%,
@@ -25,6 +31,7 @@ body {
             rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 51%, transparent 52%, transparent 69%,
             rgba(255, 255, 255, .1) 70%, rgba(255, 255, 255, .1) 71%, transparent 72%, transparent 89%,
             rgba(255, 255, 255, .1) 90%, rgba(255, 255, 255, .1) 91%, transparent 92%, transparent);
+    background-attachment: local;
 
     height: 100vh;
     background-size: 50px 50px;
