@@ -26,15 +26,17 @@ h1 {
 
 
 .blueprint-layout {
+    overflow: auto;
     position: relative;
     box-sizing: border-box;
     border: 2px solid rgba(255, 255, 255, .7);
-    height: 100vh;
+    min-height: 100vh;
     width: calc(100vh / 1.41);
     max-width: 100vi;
 }
 
 .content-layout {
+    overflow: auto;
     position: relative;
     /* border: 1px solid red; */
 
@@ -46,9 +48,10 @@ h1 {
 /* Desktop */
 @media screen and (min-width: 480px) {
     .blueprint-layout {
-        height: 98vh;
+        min-height: 98vh;
         min-width: 480px;
         margin-left: 1vw;
         margin-right: 1vw;
+        margin-top: 1vw;
     }
 }
